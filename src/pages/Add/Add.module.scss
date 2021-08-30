@@ -1,0 +1,27 @@
+.wrapper {
+  padding-top: 20px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-wrapper {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  &_blocked {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}

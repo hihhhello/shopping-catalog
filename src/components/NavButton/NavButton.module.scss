@@ -1,0 +1,12 @@
+.btn {
+  padding: 0 15px;
+  height: 100%;
+  font-size: 25px;
+  color: #fff;
+  background-color: inherit;
+  border: none;
+  transition: 0.3s all;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
